@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Ranga&display=swap');
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body.bg {
+			background-color: black;
+		}
+
+		.btn-block {
+			height: 50px;
+			width: 100px;
+			position: absolute;
+			border-radius: 30px;
+			border: 5px solid black;
+			background-color: white;
+			margin-top: 20px;
+			margin-left: 50px;
+			transition: 700ms ease-in;
+			-o-transition: 700ms ease-in;
+			-mozila-transition: 700ms ease-in;
+			-webkit-transition: 700ms ease-in;
+		}
+        
+        .btn-block .btn {
+            height: 40px;
+            width: 40px;
+            cursor: pointer;
+            background-color: silver;
+            border-radius: 25px;
+            transition: 200ms ease-in;
+            -o-transition: 200ms ease-in;
+            -mozila-transition: 200ms ease-in;
+            -webkit-transition: 200ms ease-in;
+        }
+
+        .btn-block.c {
+        	background-color: pink;
+        }
+
+        .btn-block .btn:hover {
+        	background-color: darkgrey;
+        }
+
+        .btn-block .btn.move {
+        	margin-left: 50px;
+        }
+
+        .text-main	{
+            height: 110px;
+            width: 300px;
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 650px;
+            background-color: black;
+            display: none;
+        }
+
+        .text-main.s {
+        	display: block;
+        }
+
+        .text-main #t {
+        	font-size: 100px;
+        	font-family: 'Ranga', cursive;
+        	cursor: pointer;
+        	color: white;
+        	padding-left: 80px;
+        	padding-bottom: 50px;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        }
+
+        .text-main #t:hover {
+        	color: green;
+        }
+
+        /* При клике, будет меняться положение button и меняться Background-color у  Страницы */
